@@ -13,4 +13,9 @@ class Blog extends CI_Controller {
     	//加载默认首页
         echo '首页';
     }
+
+    public function newBlog(){
+        $this->load->view('welcome_message');
+
+    }
 }
