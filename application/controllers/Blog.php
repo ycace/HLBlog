@@ -15,7 +15,7 @@ class Blog extends CI_Controller {
     }
 
     public function newBlog(){
-        $this->load->view('welcome_message');
+        $this->load->view('editBlog');
 
     }
 }
