@@ -10,6 +10,7 @@ class Login extends CI_Controller {
     public function index()
     {
     	//登录
-        echo '登录页';
+        $this->load->view('login.html');
+
     }
 }

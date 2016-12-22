@@ -10,8 +10,7 @@ class Blog extends CI_Controller {
 
     public function index()
     {
-    	//加载默认首页
-        echo '首页';
+    	$this->load->view('home.html');
     }
 
     public function newBlog(){
